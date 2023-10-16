@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A simple modal component for React 18.",
   "main": "dist/simple-modal.js",
-  "style": "dist/simple-modal.css",
   "publishConfig": {
     "access": "public"
   },

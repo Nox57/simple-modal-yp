@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const pkg = require('./package.json');
 const path = require('path');
 const libraryName = pkg.name;
@@ -14,11 +13,6 @@ module.exports = {
         publicPath: '/dist/',
         umdNamedDefine: true
     },
-    plugins: [
-        new MiniCssExtractPlugin({
-            filename: 'simple-modal.css',
-        }),
-    ],
     node: {
         __dirname: false,
         __filename: false,
@@ -43,7 +37,7 @@ module.exports = {
             {
                 test: /\.css$/,
                 use : [
-                    MiniCssExtractPlugin.loader,
+                    'style-loader',
                     'css-loader'
                 ]
             },

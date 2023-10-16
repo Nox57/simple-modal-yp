@@ -1,0 +1,1 @@
+declare module '@nox57/simple-modal';
