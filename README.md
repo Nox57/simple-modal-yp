@@ -2,7 +2,7 @@
 
 A simple modal component for React 18, designed to be easy to integrate and use in your projects.
 
-![Modal Example](https://github.com/Nox57/simple-modal-yp/blob/main/img/example.png?raw=true)
+![Modal Example](src/img/example.png)
 
 ## 🚀 Installation
 
@@ -66,7 +66,7 @@ The modal's style can be easily customized by overriding the following CSS class
 
 ## ✒️ Author
 
--   [Nox57](https://github.com/Nox57/simple-modal-yp/blob/main/img/example.png?raw=true)
+-   [Nox57](https://github.com/Nox57/)
 
 ## 📜 Licence
 
@@ -76,7 +76,7 @@ The modal's style can be easily customized by overriding the following CSS class
 
 Un composant modal simple pour React 18, conçu pour être facile à intégrer et à utiliser dans vos projets.
 
-![Exemple de Modal](./img/example.png)
+![Exemple de Modal](src/img/example.png)
 
 ## 🚀 Installation
 
