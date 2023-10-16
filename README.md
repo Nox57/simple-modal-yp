@@ -1,4 +1,4 @@
-# simple-modal-yp (english)
+# simple-modal (english)
 
 A simple modal component for React 18, designed to be easy to integrate and use in your projects.
 
@@ -6,23 +6,23 @@ A simple modal component for React 18, designed to be easy to integrate and use 
 
 ## 🚀 Installation
 
-Use the following command to install `simple-modal-yp`:
+Use the following command to install `simple-modal`:
 
 ```bash
-npm install @nox57/simple-modal-yp
+npm install @nox57/simple-modal
 ```
 
 or
 
 ```bash
-yarn add @nox57/simple-modal-yp
+yarn add @nox57/simple-modal
 ```
 
 ## 🛠 Usage
 
 ```jsx
 import React, { useState } from 'react'
-import Modal from '@nox57/simple-modal-yp'
+import Modal from '@nox57/simple-modal'
 
 function App() {
     const [isOpen, setIsOpen] = useState(false)
@@ -72,7 +72,7 @@ The modal's style can be easily customized by overriding the following CSS class
 
     This project is licensed under the MIT License.
 
-# simple-modal-yp (french)
+# simple-modal (french)
 
 Un composant modal simple pour React 18, conçu pour être facile à intégrer et à utiliser dans vos projets.
 
@@ -80,23 +80,23 @@ Un composant modal simple pour React 18, conçu pour être facile à intégrer e
 
 ## 🚀 Installation
 
-Utilisez la commande suivante pour installer `simple-modal-yp` :
+Utilisez la commande suivante pour installer `simple-modal` :
 
 ```bash
-npm install @nox57/simple-modal-yp
+npm install @nox57/simple-modal
 ```
 
 ou
 
 ```bash
-yarn add @nox57/simple-modal-yp
+yarn add @nox57/simple-modal
 ```
 
 ## 🛠 Utilisation
 
 ```jsx
 import React, { useState } from 'react'
-import Modal from '@nox57/simple-modal-yp'
+import Modal from '@nox57/simple-modal'
 
 function App() {
     const [isOpen, setIsOpen] = useState(false)

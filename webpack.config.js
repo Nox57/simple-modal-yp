@@ -8,7 +8,7 @@ module.exports = {
     entry: path.join(__dirname, "./src/index.js"),
     output: {
         path: path.join(__dirname, './dist'),
-        filename: 'simple-modal-yp.js',
+        filename: 'simple-modal.js',
         library: libraryName,
         libraryTarget: 'umd',
         publicPath: '/dist/',
@@ -16,7 +16,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'simple-modal-yp.css',
+            filename: 'simple-modal.css',
         }),
     ],
     node: {
