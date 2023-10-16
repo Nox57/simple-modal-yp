@@ -1,6 +1,6 @@
 {
   "name": "@nox57/simple-modal",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple modal component for React 18.",
   "main": "dist/simple-modal.js",
   "publishConfig": {
