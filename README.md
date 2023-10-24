@@ -4,6 +4,13 @@ A simple modal component for React 18, designed to be easy to integrate and use 
 
 ![Modal Example](https://github.com/Nox57/simple-modal-yp/raw/main/src/img/example.png)
 
+## 🧱 Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- You have installed [Node.js (version 18 or later) and npm (version 9 or later)](https://nodejs.org/en/download/)
+- You have a recent version of [React](https://legacy.reactjs.org/) and [React DOM](https://www.npmjs.com/package/react-dom) installed in your project.
+
 ## 🚀 Installation
 
 Use the following command to install `simple-modal`:
@@ -77,6 +84,13 @@ The modal's style can be easily customized by overriding the following CSS class
 Un composant modal simple pour React 18, conçu pour être facile à intégrer et à utiliser dans vos projets.
 
 ![Exemple de Modal](https://github.com/Nox57/simple-modal-yp/raw/main/src/img/example.png)
+
+## 🧱 Prérequis
+
+Avant de commencer, assurez-vous d'avoir respecté les conditions suivantes :
+
+- Vous avez installé [Node.js (version 18 ou ultérieure) et npm (version 9 ou ultérieur)](https://nodejs.org/en/download)
+- Vous avez une version récente de [React](https://legacy.reactjs.org/) et [React DOM](https://www.npmjs.com/package/react-dom) installées dans votre projet.
 
 ## 🚀 Installation
 

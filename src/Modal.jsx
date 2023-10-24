@@ -2,6 +2,19 @@ import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import './Modal.css'
 
+/**
+ * Modal component that displays a modal window with content.
+ *
+ * @component
+ * @example
+ * const handleClose = () => console.log('Modal closed');
+ * 
+ * <Modal isOpen={true} onClose={handleClose}>
+ *     <h1>Modal title</h1>  
+ *     <p>Modal content</p>
+ * </Modal>
+ * 
+ */
 export default function Modal({
     isOpen,
     onClose,
@@ -57,6 +70,20 @@ export default function Modal({
     )
 }
 
+
+/**
+ * The prop types for the modal component.
+ *
+ * @name Modal.propTypes
+ * @type {object}
+ * @property {boolean} isOpen - Indicates if the modal is open.
+ * @property {function} onClose - The function to call when the modal needs to be closed.
+ * @property {node} children - The child elements to display within the modal.
+ * @property {string} className - Additional CSS classes to apply to the modal.
+ * @property {boolean} closeOnOverlayClick - Indicates if a click on the overlay should close the modal.
+ * @property {string} width - The width of the modal.
+ * @property {string} closeButtonText - The text for the close button.
+ */
 Modal.propTypes = {
     isOpen: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,
@@ -67,6 +94,12 @@ Modal.propTypes = {
     closeButtonText: PropTypes.string,
 }
 
+/**
+ * The default values for the props of the modal component.
+ *
+ * @name Modal.defaultProps
+ * @type {object}
+ */
 Modal.defaultProps = {
     className: '',
     closeOnOverlayClick: true,
